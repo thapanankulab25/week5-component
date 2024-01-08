@@ -10,17 +10,32 @@ import Calendar from './class-components'
 // }
 // export default App
 
+import MsgBox2 from './func-props'
 function App() {
-    return (
-    <>
-    <Header/>
-    <p><center><Calendar/></center></p>
-    <Content/>
-    <Footer/>
-    </>
-    )
-    }
-    export default App
+return (
+<MsgBox2
+text= "การใช้ props"
+color= "red "
+bgColor="#ccc"
+fontSize="18pt"
+border="solid 1px black"
+/>
+) 
+}
+export default App
+
+
+// function App() {
+//     return (
+//     <>
+//     <Header/>
+//     <p><center><Calendar/></center></p>
+//     <Content/>
+//     <Footer/>
+//     </>
+//     )
+//     }
+//     export default App
 
 
 // import logo from './logo.svg';
