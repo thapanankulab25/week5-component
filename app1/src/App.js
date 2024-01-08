@@ -3,7 +3,7 @@ import { Content,Footer, Header } from './func-components'
 function App() {
 
 return (
-[<Header />,<Content /> ,<Footer /> ]
+[<Header />,<Content /> ,<Footer /> ] //add header
 )
 }
 export default App
