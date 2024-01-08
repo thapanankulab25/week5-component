@@ -1,12 +1,26 @@
 import React from 'react'
-import { Content,Footer, Header } from './func-components'
-function App() {
+import {Content,Footer, Header } from './func-components'
+import Calendar from './class-components'
 
-return (
-[<Header />,<Content /> ,<Footer /> ] //add header
-)
-}
-export default App
+// function App() {
+
+// return (
+// [<Header />,<Content /> ,<Footer /> ] //add header
+// )
+// }
+// export default App
+
+function App() {
+    return (
+    <>
+    <Header/>
+    <p><center><Calendar/></center></p>
+    <Content/>
+    <Footer/>
+    </>
+    )
+    }
+    export default App
 
 
 // import logo from './logo.svg';
