@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-//มีคลำสเดียว จึงสำมำรถส่งออกแบบ default ได้
 export default class Calendar extends Component {
     getDate() {
         const dayNames = ['อาทิตย์', 'จันทร์', 'อังคาร', 'พุธ', 'พฤหัสบดี', 'ศุกร์', 'เสาร์']

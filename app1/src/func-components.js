@@ -8,9 +8,9 @@ textDecoration: 'none'
 }
 return (
     <div style={{backgroundColor: '#ccc'}}>
-    <a href="/home" style={aStyle}>Home</a> |&nbsp;
-    <a href="/react" style={aStyle}>React</a> |&nbsp;
-    <a href="/react Native" style={aStyle}>React Native</a>
+    <a href="" style={aStyle}>Home</a> |&nbsp;
+    <a href="https://react.dev/" style={aStyle}>React</a> |&nbsp;
+    <a href="https://reactnative.dev/" style={aStyle}>React Native</a>
     </div>
     )
 }
